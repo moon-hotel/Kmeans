@@ -84,12 +84,6 @@ def kmeans(X, K, max_iter):
 
 
 class KMeans:
-    n_clusters = 0
-    max_iter = 0
-    best_labels, best_centers = None, None
-    isConverge = False
-    cost = None
-
     def __init__(self, n_clusters=3, max_iter=20):
         self.n_clusters = n_clusters
         self.max_iter = max_iter
